@@ -1,0 +1,59 @@
+<div class="container">
+  <hr>
+  <app-child1 (sendItemEvent)="addItem($event)" ></app-child1>
+<hr>
+
+<app-xchild2 [recevdFromAppCom]="selectedEmployee" [status]="statusFromApp"
+
+></app-xchild2>
+<!-- <app-child1 (sendPersonEvent)="addItem1($event)"></app-child1> -->
+
+<!-- <app-child1 (sendPersonEvent)="addItem1($event)"></app-child1> -->
+
+<!-- <h1>in app-componet </h1> -->
+
+
+<!-- <table *ngIf="status" class="table table-hover col-lg-3 col-md-3 col-3 list-inline-item">
+  <thead class="thead-dark">
+    <tr>
+      <th>EMP-Id</th>
+      <th>EMP-Name</th>
+      <th>EMP-Department</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr >
+      <td>{{ selectedEmployee.id}}</td>
+      <td>{{ selectedEmployee.Name}}</td>
+      <td>{{ selectedEmployee.drept}}</td>
+    </tr>
+  </tbody>
+</table> -->
+
+<!-- <app-xchild2
+[PersonRecevdFromAppCom]="selectedPerson" [status]="statusFromApp1" ></app-xchild2>
+ -->
+<hr>
+
+<div >{{vindata | json}} </div>
+<div >{{vindata.firstName}} </div>
+<div >{{vindata.firstName}} </div>
+<div >{{vindata.address }} </div>
+<div >{{vindata.address | json}} </div>
+<div >{{vindata.address.streetAddress}} </div>
+<div >{{vindata.address.streetAddress}} </div>
+<hr>
+<div> {{vinArr.Emp[0] | json}} </div>
+Here me
+ <ul >
+  <li *ngFor="let item of vinArr.Emp;"> {{item | json}} </li>
+</ul>
+<hr>
+<ul >
+  <li *ngFor="let item of vinArr.Persons;"> {{item | json}} </li>
+</ul>
+
+
+
+<router-outlet></router-outlet>
+</div>

@@ -1,0 +1,82 @@
+{
+  "mydata":{
+      "author": [
+                      {
+                        "name" : "Admin-system",
+                        "age" : 36,
+                        "rights" : [ "system-admin", "Provider", "check-in" ]
+                      },
+                      {
+                        "name" : "CEO",
+                        "age" : 47,
+                        "rights" : [ "CEO", "Managing", "contributor" ]
+                      },
+                      {
+                        "name" : "HR",
+                        "age" : 36,
+                        "rights" : [ "HR-ops", "All-staff", "Management" ]
+                      },
+                      {
+                      "name" : "Sub-staff",
+                      "age" : 56,
+                      "rights" : [ "Care-taking", "things", "Caring" ]
+                      }
+                ],
+
+      "employee": [
+                      {
+                        "id": 1,
+                        "name": "Prasanna",
+                        "dept": "HR-ops"
+                      },
+                      {
+                        "id": 2,
+                        "name": "Mahesh",
+                        "dept": "Mgmt-ops"
+                      },
+                      {
+                        "id": 3,
+                        "name": "Praveen",
+                        "dept": "Fund-ops"
+                      },
+                      {
+                        "id": 4,
+                        "name": "Kiran",
+                        "dept": "Devep"
+                      },
+                      {
+                        "id": 5,
+                        "name": "Prathibha",
+                        "dept": "CEO"
+                      }
+                    ],
+
+      "person": [
+                      {
+                        "aadhar-id": 1236554,
+                        "name": "Vinay",
+                        "location": "Warangal"
+                      },
+                      {
+                        "aadhar-id": 1123654,
+                        "name": "Prashanth",
+                        "location": "karimnagar"
+                      },
+                      {
+                        "aadhar-id": 1123651,
+                        "name": "Sharmila",
+                        "location": "Chennai"
+                      },
+                      {
+                        "aadhar-id": 1123652,
+                        "name": "Manogna",
+                        "location": "Warangal"
+                      },
+                      {
+                        "aadhar-id": 1123653,
+                        "name": "Manaswini",
+                        "location": "Delhi"
+                      }
+                    ]
+          }
+}
